@@ -1,0 +1,290 @@
+::-moz-selection { background: #B084CC; }
+::selection { background: #B084CC; }
+
+
+@font-face {
+        font-family: "AV";
+            src: url("../fonts/AvenirNextRegular.ttf");
+}
+
+body {
+    margin: 0;
+    color: #000;
+    background-color: #5DD9C1;
+}
+
+#mainPage {
+
+        padding: 5% 15%;
+        margin: 0 auto;
+        display: table;
+}
+
+#navBar
+{
+    width: 100%;
+    position: fixed;
+    float: right;
+	
+	letter-spacing: .25em;
+	font-family: 'VT323', monospace;	
+	background-color: #93FFFF;
+}
+
+#mainNav {
+	list-style: none;
+
+	width: 100%;
+	padding-left: 0;
+
+	top: 0;
+	margin: 0;
+
+	margin-bottom: 2em;
+}
+
+#mainNav li {
+
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+
+    color: black;
+
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+
+	padding-right: 1em;
+	padding-top: 1em;
+	letter-spacing: .25em;
+}
+
+a {
+    text-decoration: none;
+    color: #B084CC;
+
+    display: block;
+}
+
+a:hover {
+        color: #EDE7B1;
+}
+
+#mainPage {
+
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mainPage h1, h2 {
+
+    font-family: 'VT323', monospace;
+	font-size: 5em; 
+
+	text-transform: uppercase;
+}
+
+#mainPage h1 {
+	margin-top: 10%;
+	font-size: 7em;
+	color: #F06192;
+}
+
+#about {
+    margin: 0 auto;
+    display: table;
+
+    padding: 15% 25%;
+	padding-bottom: 5%;
+}
+
+
+#about img {
+	width: 25%;
+	float: right;
+	padding: 0% 15%;
+	position: relative;
+}
+
+p {
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+
+    letter-spacing: .10em;
+    text-transform: none;
+    padding-bottom: 10%;
+}
+
+#kickstarter {
+	margin: 0 auto;
+	display: table;
+
+	padding-bottom: 5%;
+	width: 15%;
+}
+
+#footer{
+    margin: 0 auto;
+    display: table;
+
+    float: center;
+    list-style: none;
+
+    font-family: 'AV';
+    font-size: .85em;
+
+    text-transform: uppercase;
+    letter-spacing: .25em;
+
+    padding-bottom: 1em;
+
+    width:100%;
+    bottom:0;
+    left:0;
+
+	text-align: center;
+}
+
+#footer li {
+    float: left;
+    padding-right: .5em;
+}
+
+#footer a {
+    padding: 0;
+}
+
+#footer a:hover {
+    background-color: black
+}
+
+@media only screen and (max-width: 500px) { 
+
+}
+
+/*  
+ *
+ *  iphone 5 & 5s
+ *
+ *
+ *  */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+#mainNav {
+	display: none;
+}
+
+#mainNav li {
+	font-size: 4em;
+	float: center;
+
+	text-align: center;
+}
+#mainPage h1 {
+	font-size: 10em;
+}
+
+#mainPage h2 {
+	font-size: 6em;
+}
+
+#about {
+	padding: 50% 15%;
+	padding-bottom: 15%;
+}
+
+#about img {
+	width: 75%;
+	padding-bottom: 15%;
+}
+
+#desktop {
+	display: none;
+}
+
+p {
+	font-size: 6em;
+	padding: 0% 15%;
+	text-align: center;
+}
+
+#kickstarter {
+	width: 40%;
+}
+
+
+#footer {
+	font-size: 1.75em;
+}
+
+}
+
+/*  
+ *
+ *  iphone 6+
+ *
+ *
+ *  */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+#mainNav {
+	display: none;
+}
+
+#mainNav li {
+	font-size: 4em;
+	float: center;
+
+	text-align: center;
+}
+#mainPage h1 {
+	font-size: 10em;
+}
+
+#mainPage h2 {
+	font-size: 6em;
+}
+
+#about {
+	padding: 50% 15%;
+	padding-bottom: 15%;
+}
+
+#about img {
+	width: 75%;
+	padding-bottom: 15%;
+}
+
+#desktop {
+display: none;
+}
+
+p {
+	font-size: 6em;
+	padding: 0% 15%;
+	text-align: center;
+}
+
+#kickstarter {
+	width: 40%;
+}
+
+#footer {
+	font-size: 1.75em;
+}
+
+
+}
+
+
+
+
+
