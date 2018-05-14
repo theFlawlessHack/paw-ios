@@ -28,6 +28,7 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" name="BackgroundColor"/>
+                        <color key="tintColor" name="BackgroundColor"/>
                         <constraints>
                             <constraint firstItem="5Ho-j0-g4i" firstAttribute="centerX" secondItem="EC7-i3-hhc" secondAttribute="centerX" id="Ymz-W0-eR9"/>
                             <constraint firstItem="5Ho-j0-g4i" firstAttribute="centerY" secondItem="EC7-i3-hhc" secondAttribute="centerY" id="hnL-Xx-NU5"/>
@@ -42,7 +43,7 @@
     <resources>
         <image name="paw" width="128" height="128"/>
         <namedColor name="BackgroundColor">
-            <color red="0.66600000858306885" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.63700002431869507" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

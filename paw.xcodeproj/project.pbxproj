@@ -10,11 +10,11 @@
 		AC215EF220A9D99300D739E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC215EF120A9D99300D739E4 /* AppDelegate.swift */; };
 		AC215EF420A9D99300D739E4 /* ChallengeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC215EF320A9D99300D739E4 /* ChallengeController.swift */; };
 		AC215EF720A9D99300D739E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC215EF520A9D99300D739E4 /* Main.storyboard */; };
-		AC215EF920A9D99700D739E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC215EF820A9D99700D739E4 /* Assets.xcassets */; };
 		AC215EFC20A9D99700D739E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC215EFA20A9D99700D739E4 /* LaunchScreen.storyboard */; };
 		AC215F0620A9DC2D00D739E4 /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC215F0520A9DC2D00D739E4 /* OptionCell.swift */; };
 		AC215F0920A9EB9A00D739E4 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC215F0820A9EB9A00D739E4 /* GameService.swift */; };
 		AC215F0D20A9F5B300D739E4 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC215F0C20A9F5B300D739E4 /* SettingsController.swift */; };
+		AC5A741820AA1EB400F0295A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5A741720AA1EB300F0295A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,12 @@
 		AC215EF120A9D99300D739E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC215EF320A9D99300D739E4 /* ChallengeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeController.swift; sourceTree = "<group>"; };
 		AC215EF620A9D99300D739E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC215EF820A9D99700D739E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC215EFB20A9D99700D739E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC215EFD20A9D99700D739E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC215F0520A9DC2D00D739E4 /* OptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCell.swift; sourceTree = "<group>"; };
 		AC215F0820A9EB9A00D739E4 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		AC215F0C20A9F5B300D739E4 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		AC5A741720AA1EB300F0295A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		AC215F0720A9DF9600D739E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AC215EF820A9D99700D739E4 /* Assets.xcassets */,
+				AC5A741720AA1EB300F0295A /* Assets.xcassets */,
 				AC215F0A20A9EE8B00D739E4 /* Storyboards */,
 			);
 			path = Resources;
@@ -172,7 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC215EFC20A9D99700D739E4 /* LaunchScreen.storyboard in Resources */,
-				AC215EF920A9D99700D739E4 /* Assets.xcassets in Resources */,
+				AC5A741820AA1EB400F0295A /* Assets.xcassets in Resources */,
 				AC215EF720A9D99300D739E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
